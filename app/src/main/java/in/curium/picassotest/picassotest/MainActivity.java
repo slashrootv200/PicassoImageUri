@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         .into(iv, new Callback() {
           @Override
           public void onSuccess() {
-
+            Log.d("success", "success");
           }
 
           @Override
